@@ -1,0 +1,9 @@
+13) what are checked and unchecked exceptions in java?
+
+Checked exceptions are the exceptions which are known to compiler. These exceptions are checked at
+compile time only. Hence the name checked exceptions. These exceptions are also called compile time exceptions.
+Because, these exceptions will be known during compile time.
+
+Unchecked exceptions are those exceptions which are not at all known to compiler.
+These exceptions occur only at run time. These exceptions are also called as run time exceptions.
+All sub classes of java.lang.RunTimeException and java.lang.Error are unchecked exceptions.

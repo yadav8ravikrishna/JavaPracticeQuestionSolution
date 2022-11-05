@@ -1,0 +1,3 @@
+23) What is StackOverflowError in Java?
+
+StackOverflowError is an error which is thrown by the JVM when stack overflows.

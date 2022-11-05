@@ -1,0 +1,3 @@
+27) Give some examples of unchecked exceptions?
+
+NullPointerException, ArrayIndexOutOfBoundsException, NumberFormatException

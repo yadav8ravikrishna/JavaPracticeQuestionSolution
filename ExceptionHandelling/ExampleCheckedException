@@ -1,0 +1,3 @@
+26) Give some examples of checked exceptions?
+
+ClassNotFoundException, SQLException, IOException

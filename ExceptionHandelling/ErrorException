@@ -1,0 +1,6 @@
+6) Difference between exception and error.
+
+Errors are mainly caused by the environment in which an application is running.
+For example, OutOfMemoryError happens when JVM runs out of memory.
+Where as exceptions are mainly caused by the application itself.
+For example, NullPointerException occurs when an application tries to access null object.

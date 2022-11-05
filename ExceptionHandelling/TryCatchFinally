@@ -1,0 +1,10 @@
+5) How are exceptions handled in Java? OR Explain exception handling mechanism in Java?
+
+Exceptions in Java are handled using try, catch and finally blocks.
+
+try block : The code or set of statements which are to be monitored for exception are kept in this block.
+
+catch block : This block catches the exceptions occurred in the try block.
+
+finally block : This block is always executed whether exception
+is occurred in the try block or not and occurred exception is caught in the catch block or not.

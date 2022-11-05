@@ -1,0 +1,17 @@
+16) What is Re-throwing an exception in Java?
+
+Exceptions raised in the try block are handled in the catch block.
+If it is unable to handle that exception, it can re-throw that exception using throw keyword.
+It is called re-throwing an exception.
+
+try
+{
+    String s = null;
+    System.out.println(s.length());   //This statement throws NullPointerException
+}
+catch(NullPointerException ex)
+{
+    System.out.println("NullPointerException is caught here");
+
+    throw ex;     //Re-throwing NullPointerException
+}

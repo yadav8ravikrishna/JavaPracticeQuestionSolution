@@ -1,0 +1,6 @@
+11) What are run time exceptions in Java. Give example?
+
+The exceptions which occur at run time are called as run time exceptions.
+These exceptions are unknown to compiler. All sub classes of java.lang.RunTimeException and java.lang.Error
+are run time exceptions. These exceptions are unchecked type of exceptions. For example, NumberFormatException,
+NullPointerException, ClassCastException, ArrayIndexOutOfBoundException, StackOverflowError etc.

@@ -1,0 +1,5 @@
+9) What is unreachable catch block error?
+
+When we are keeping multiple catch blocks, the order of catch blocks must be from most specific to most
+general ones. i.e sub classes of Exception must come first and super classes later. If you keep super classes
+first and sub classes later, compiler will show unreachable catch block error.

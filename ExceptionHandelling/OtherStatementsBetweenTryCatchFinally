@@ -1,0 +1,3 @@
+6) Can we keep other statements in between try, catch and finally blocks?
+
+No. We shouldn’t write any other statements in between try, catch and finally blocks. They form a one unit.

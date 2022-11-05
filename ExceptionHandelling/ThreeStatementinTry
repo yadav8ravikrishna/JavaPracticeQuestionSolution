@@ -1,0 +1,7 @@
+8) There are three statements in a try block – statement1, statement2 and statement3. After that there is a
+catch block to catch the exceptions occurred in the try block. Assume that exception has occurred in statement2.
+Does statement3 get executed or not?
+
+
+No, the third statement is not executed because, Once a try block throws an exception, remaining statements will not be executed.
+control comes directly to catch block.

@@ -1,0 +1,12 @@
+17) What is the use of throws keyword in Java?
+
+If a method is capable of throwing an exception that it could not handle, then it should specify
+that exception using throws keyword. It helps the callers of that method in handling that exception.
+The syntax for using throws keyword is,
+
+return_type method_name(parameter_list) throws exception_list
+{
+     //some statements
+}
+
+where, exception_list is the list of exceptions that method may throw. Exceptions must be separated by commas.

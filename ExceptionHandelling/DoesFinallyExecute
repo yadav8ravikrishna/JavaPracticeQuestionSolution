@@ -1,0 +1,3 @@
+14) Does finally block get executed If either try or catch blocks are returning the control?
+
+Yes, finally block will be always executed no matter whether try or catch blocks are returning the control or not.

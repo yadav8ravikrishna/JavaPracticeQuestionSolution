@@ -1,0 +1,4 @@
+4) What is finally block?
+
+This block is always executed whether exception is occurred
+in the try block or not and occurred exception is caught in the catch block or not.

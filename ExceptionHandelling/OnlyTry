@@ -1,0 +1,4 @@
+7) Can we write only try block without catch and finally blocks?
+
+No, It shows compilation error. The try block must be followed by either catch or finally block.
+We can remove either catch block or finally block but not both

@@ -1,0 +1,13 @@
+20) What is the difference between final, finally and finalize in Java?
+
+final is a keyword which is used to make a variable or a method or a class as “unchangeable“. In simple terms,
+A variable which is declared as final, it’s value can not be changed once it is initialized.
+
+finally is a block which is used for exception handling along with try and catch blocks.
+finally block is always executed whether exception is raised or not and raised exception is handled or not.
+Most of time, this block is used to close the resources like database connection, I/O resources etc.
+
+there is one similarity between finally block and finalize() method. Both are used to close the resources used
+by the program. finally block is used to close the resources soon after their use. finalize() method is used to
+close the resources before an object is removed from the memory. That means if you use finalize() method to
+close the resources, they will remain open until an object,  which is using them, is garbage collected.

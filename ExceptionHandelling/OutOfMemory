@@ -1,0 +1,3 @@
+12) What is OutOfMemoryError in Java?
+
+OutOfMemoryError is the sub class of java.lang.Error which occurs when JVM runs out of memory.

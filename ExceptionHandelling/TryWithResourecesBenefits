@@ -1,0 +1,5 @@
+28) What are the benefits of try-with-resources?
+
+The main benefit of try-with-resources is that it avoids resource leaks that could happen
+if we don’t close the resources properly after they are used. Another benefit of try-with-resources
+is that it removes redundant statements in the code and thus improves the readability of the code.

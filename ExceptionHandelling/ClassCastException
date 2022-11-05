@@ -1,0 +1,4 @@
+21) What is ClassCastException in Java?
+
+ClassCastException is a RunTimeException which occurs when JVM unable to cast an object of one type to another
+type.
